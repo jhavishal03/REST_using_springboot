@@ -12,9 +12,9 @@ public class UserDaoServices {
    private static List<User> users=new ArrayList<>();
    private static int usercount=3;
     static {
-    users.add(new User(1,"vishal Jha","Bihar",new Date()));
-        users.add(new User(2,"Devansh Chaubey","Varanasi",new Date()));
-        users.add(new User(3,"Shiva Dubey","Haryana",new Date()));
+    users.add(new User(1,"vishal Jha","Bihar"));
+        users.add(new User(2,"Devansh Chaubey","Varanasi"));
+        users.add(new User(3,"Shiva Dubey","Haryana"));
     };
     public List<User> findAll(){
         return users;

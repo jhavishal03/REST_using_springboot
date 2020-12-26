@@ -34,6 +34,7 @@ public class UserController {
 
         return user;
     }
+
     @PostMapping("/users")
     public ResponseEntity<Object> insertUser(@Valid @RequestBody  User user){
         User saveduser=services.save(user);
